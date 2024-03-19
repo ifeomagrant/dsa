@@ -1,5 +1,5 @@
 package sort;
-import list.*;
+import List.*;
 
 /**
  * Write a description of class BubbleSortLinked here.
@@ -19,7 +19,7 @@ public class BubbleSortLinked<E extends Comparable> implements Sorter<E>
         
         for(int i =0; i < list.size(); i++)
         {
-            list = list.listIterator();
+            lit = list.listIterator();
             right = lit.next();
             for(int j = 0; j < list.size()-i-1; j++)
             {

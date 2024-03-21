@@ -1,5 +1,5 @@
 package sort;
-import List.*;
+import list.*;
 
 /**
  * Write a description of class BubbleSortLinked here.

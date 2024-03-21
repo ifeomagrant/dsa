@@ -70,6 +70,44 @@ public class BinarySearchTree <E extends Comparable> implements BinaryTree <E>
         return addHelper(value);
     }
 
+    @Override
+    public BinaryTree<E> getLeft() {
+        return left;
+    }
+
+    @Override
+    public BinaryTree<E> getRight() {
+        return right;
+    }
+
+    @Override
+    public int size() {
+        return size;
+    }
+
+    @Override
+    public boolean isEmpty() {
+        return false;
+    }
+
+    @Override
+    public void setValue(E value) {
+        this.value = value;
+    }
+
+    @Override
+    /** Set the left child of this Binary tree to the given Binary Tree */
+    public void setLeft (BinaryTree <E> left)
+    { this.left = left;
+        size = left.size() + right.size() + 1;
+    }
+    /** Set the right child of this Binary tree to the given BinaryTree */
+    public void setRight (BinaryTree <E> right)
+    { this.right = right;
+        size = left.size() + right.size() + 1;
+    }
+
+
     private BinaryTree <E> addHelper (E value)
     {
         int cmp = this.value.compareTo(value);
@@ -154,6 +192,7 @@ public class BinarySearchTree <E extends Comparable> implements BinaryTree <E>
         {
             result.add(right);
         }
+        return result;
     }
     
     //return the successor of this BinaryTree

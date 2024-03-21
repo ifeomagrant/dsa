@@ -29,7 +29,41 @@ public class EmptyBinarySearchTree <E extends Comparable> implements BinaryTree 
         BinarySearchTree.added = true;
         return new BinarySearchTree <E> (value);
     }
-    
+
+    @Override
+    public BinaryTree<E> getLeft() {
+        return null;
+    }
+
+    @Override
+    public BinaryTree<E> getRight() {
+        return null;
+    }
+
+    @Override
+    public int size() {
+        return 0;
+    }
+
+    public boolean isEmpty() {
+        return true;
+    }
+
+    @Override
+    public void setValue(E value) {
+
+    }
+
+    @Override
+    public void setLeft(BinaryTree<E> left) {
+
+    }
+
+    @Override
+    public void setRight(BinaryTree<E> right) {
+
+    }
+
     //here i need to add homework
     
     //tuesday

@@ -6,9 +6,7 @@ import java.util.Random;
 /**
  * Data Structures and Algorithms.
  * Test the toString() method on Lists
- * 
- * @author (sdb) 
- * @version (Sep 2020)
+ *
  */
 public class DriverRemoveObj
 {

@@ -2,7 +2,6 @@ package stack;
 
 /**
  * A LIFO List
- * @author sdb&__
  * @param <E>
  */
 public interface StackADT<E>{

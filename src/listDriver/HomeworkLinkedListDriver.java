@@ -4,9 +4,7 @@ import list.*;
 
 /**
  * Test the List ADT.
- * 
- * @author (sdb) 
- * @version (Sep 2018)
+ *
  */
 public class HomeworkLinkedListDriver
 {

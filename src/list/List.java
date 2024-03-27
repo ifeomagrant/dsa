@@ -3,7 +3,7 @@ package list;
 
 /**
  * An ordered collection.
- * @author sbd & jtm
+ * @author
  */
 public interface List <E>
 {

@@ -2,9 +2,7 @@ package listDriver;
 import list.*;
 
 /**
- * 
- * @author (sdb and PUT YOUR NAME HERE!) 
- * @version (Feb 2018)
+ *
  */
 public class LabDeleteListIterator
 {

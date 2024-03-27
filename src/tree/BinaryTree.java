@@ -1,11 +1,12 @@
 package tree;
 
 
+import list.Iterator;
+
 /**
  * A BinaryTree may have a value, and at most
  * two children, each of which is a BinaryTree
  *
- * @author sbd & jtm
  */
 public interface BinaryTree <E>
 {
@@ -71,11 +72,12 @@ public interface BinaryTree <E>
     void setRight(BinaryTree<E> right);
     
     //must implement above in other classes.
-
-    //tuesday march 19
     /**
      * Remove the given Object from this BinaryTree's Family, if possible
      * @return the resulting BinaryTree.
      */
     BinaryTree <E> remove(Object obj);
+
+    Iterator<E> iterator();
 }
+

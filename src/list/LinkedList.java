@@ -2,7 +2,7 @@ package list;
 
 /**
  * A List implemented with references.
- * @author sbd
+ * @author
  */
 public class LinkedList<E> implements List<E>
 {
@@ -25,12 +25,19 @@ public class LinkedList<E> implements List<E>
     }
 
     //post condition: refe refers to node at position ndx
-    private void setRef(int ndx)
-    {
-        ref = head.next; //Node at position 0
-        for(int i=0; i<ndx; i++)
-        {
-            ref= ref.next;
+    private void setRef(int ndx) {
+        int midPoint = size / 2;
+
+        if (ndx > midPoint) {
+            ref = tail.prev; //start at
+            for (int i = size -1; i > ndx; i--) {
+                ref = ref.prev;
+            }
+        } else{
+            ref = head.next; //Node at position 0
+            for (int i = 0; i < ndx; i++) {
+                ref = ref.next;
+            }
         }
     }
 

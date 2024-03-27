@@ -5,9 +5,7 @@ import java.util.Random;
 
 /**
  * Test the QuickSort algorithm.
- * 
- * @author (sdb)  
- * @version (2020)
+ *
  */
 public class DriverQuicksort
 {   static final int MAX = 20;

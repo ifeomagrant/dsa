@@ -6,8 +6,6 @@ import java.util.Random;
 /**
  * Test the BubbleSort algorithm.
  * 
- * @author (sdb)  
- * @version (2020)
  */
 public class LabBubbleFlag
 {

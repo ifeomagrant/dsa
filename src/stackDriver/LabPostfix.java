@@ -7,8 +7,6 @@ import java.util.Scanner;
  * Evaluate postfix expressions
  * Assume that numbers and operators are separated by one space.
  * Assume that the expressions are well-formed.
- * @author (sdb and PUT YOUR NAME HERE) 
- * @version (2020) 
  */
 
 public class LabPostfix

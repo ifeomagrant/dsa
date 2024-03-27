@@ -6,9 +6,7 @@ import java.util.Random;
 /**
  * Data Structures and Algorithms.
  * Lab 2, Problems 1, 2
- * 
- * @author (sdb) 
- * @version (Sep 2020)
+ *
  */
 public class DriverNdxOfContains
 {

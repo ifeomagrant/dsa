@@ -2,10 +2,11 @@ package tree;
 
 //EmptyBinarySearchTree.java
 
+import list.Iterator;
+
 /**
  * A BinaryTree with no value, no children
  *
- * @author sbd & jtm
  */
 public class EmptyBinarySearchTree <E extends Comparable> implements BinaryTree <E>
 {
@@ -71,4 +72,6 @@ public class EmptyBinarySearchTree <E extends Comparable> implements BinaryTree 
     {
         return new EmptyBinarySearchTree <E> ();
     }
+    public Iterator<E> iterator(){ return new TreeIterator<E>(this);}
+
 }

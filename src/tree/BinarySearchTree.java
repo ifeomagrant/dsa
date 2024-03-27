@@ -4,7 +4,6 @@ import list.*;
  * A BinaryTree with left child smaller, right child larger,
  * each nonEmpty is also a BinarySearchTree.
  *
- * @author sbd & jtm
  */
 public class BinarySearchTree <E extends Comparable> implements BinaryTree <E>
 {
@@ -149,6 +148,7 @@ public class BinarySearchTree <E extends Comparable> implements BinaryTree <E>
         int cmp = this.value.compareTo(value);
         if(cmp == 0) //found it
         {
+            removed = true;
             List <BinaryTree<E>> kids = children();
             if(kids.size() == 0)
             {
@@ -204,5 +204,7 @@ public class BinarySearchTree <E extends Comparable> implements BinaryTree <E>
         }
         return result;
     }
+
+    public Iterator<E> iterator(){ return new TreeIterator<E>(this);}
 }
 

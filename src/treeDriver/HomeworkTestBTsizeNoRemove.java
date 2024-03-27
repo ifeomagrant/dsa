@@ -6,8 +6,6 @@ import list.*;
 /**
  * Test the binary search tree implementation.
  * 
- * @author (sdb) 
- * @version (Oct. 2019)
  */
 public class HomeworkTestBTsizeNoRemove
 {

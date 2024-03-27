@@ -4,7 +4,7 @@ package list;
 /**
  * A Node has a value,
  * and references to two other nodes.
- * @author sbd & jtm
+ * @author
  */
 class Node <E>
 {

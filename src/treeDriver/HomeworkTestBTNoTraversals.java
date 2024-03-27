@@ -6,8 +6,6 @@ import list.*;
 /**
  * Test the binary search tree implementation.
  * 
- * @author (sdb) 
- * @version (2020)
  */
 public class HomeworkTestBTNoTraversals
 { 

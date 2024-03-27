@@ -4,7 +4,7 @@ package list;
 /**
  * A ListIterator for ArrayLists
  *
- * @author sbd & jtm
+ * @author
  */
 class ArrayListIterator<E> extends ArrayIterator <E> implements ListIterator<E>
 {

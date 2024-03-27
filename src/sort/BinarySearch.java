@@ -2,7 +2,6 @@ package sort;
 import list.*;
 
 /** Binary Search Algorithm. use a sorted9ascending) ArrayList.
- * author sdb&(ascending)
  * ArrayList
  */
 public class BinarySearch<E extends Comparable>{

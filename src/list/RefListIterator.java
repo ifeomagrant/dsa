@@ -3,7 +3,7 @@ package list;
 /**
  * A ListIterator for LinkedLists.
  *
- * @author sbd & jtm
+ *
  */
 class RefListIterator <E> extends RefIterator <E> implements ListIterator <E>
 {

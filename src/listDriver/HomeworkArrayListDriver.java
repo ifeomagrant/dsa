@@ -5,8 +5,6 @@ import list.*;
 /**
  * Test the list.List ADT.
  * 
- * @author (sdb) 
- * @version (Jan 2019)
  */
 public class HomeworkArrayListDriver
 {

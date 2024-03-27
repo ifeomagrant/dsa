@@ -1,7 +1,8 @@
 package list;
 
 public class RefIterator<E> implements Iterator<E>{
-    /** An Iterator for LinkedLists @author sdb& ____*/
+    /** An Iterator for LinkedLists @author sdb& ____
+     * */
 
     LinkedList<E> list;
     Node<E> cursor;

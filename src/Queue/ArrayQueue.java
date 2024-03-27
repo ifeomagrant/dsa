@@ -1,11 +1,11 @@
-package queue;
+package Queue;
 import list.*;
 //ArrayQueue.java
 
 /**
  * A QueueADT using an ArrayList.
  *
- * @author sbd & jtm
+ * @author sbd & ----
  */
 public class ArrayQueue <E> implements QueueADT <E>
 {
@@ -47,22 +47,35 @@ public class ArrayQueue <E> implements QueueADT <E>
         size--;
         return result;
     }
-
-    @Override
-    public boolean isEmpty() {
-        return false;
+    
+    //hw wk5
+    public boolean isEmpty()
+    {
+        return size == 0;
     }
 
-    @Override
+    public String toString()
+     {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[");
+        for (int i = 0; i < size; i++) {
+            sb.append(list.get((front + i) % list.size()));
+            if (i < size - 1) {
+                sb.append(", ");
+            }
+        }
+        sb.append("]");
+        return sb.toString();
+    }
+
     public void clear() {
-        size = 0;
         front = 0;
         back = 0;
+        size = 0;
+        list.clear();
     }
-
-    @Override
-    public int size() {
-        return size;
+    
+    public int size(){
+        return size;//testing 2.19
     }
-
 }

@@ -3,7 +3,6 @@ import list.*;
 
 /**
  * an implementation of the StackADT interface
- * @author sdb &____
  */
 
 public class Stack<E> implements StackADT<E>{

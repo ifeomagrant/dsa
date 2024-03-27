@@ -6,8 +6,7 @@ import list.*;
  *
  * Compare lists for equality
  * 
- * @author (sdb) 
- * @version (Sep 2020)
+ * @author
  */
 public class DriverLabEquals
 {   static final int MAX = 1000000;

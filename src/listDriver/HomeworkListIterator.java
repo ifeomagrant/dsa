@@ -3,9 +3,7 @@ import list.*;
 
 /** 
  * Test the ListIterator classes 
- * 
- * @author (sdb) 
- * @version (2020)
+ *
  */
 public class HomeworkListIterator
 {

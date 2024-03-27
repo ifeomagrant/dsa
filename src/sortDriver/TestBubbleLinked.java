@@ -6,8 +6,6 @@ import java.util.Random;
 /**
  * Test the Bubble Sort algorithm on a linked list.
  * 
- * @author (sdb) 
- * @version (2020)
  */
 public class TestBubbleLinked
 {

@@ -1,11 +1,11 @@
-package queue;
+package Queue;
 import list.*;
 //Queue.java
 
 /**
  * A QueueADT using a LinkedList
  *
- * @author sbd & jtm
+ * @author sbd & ---
  */
 public class Queue <E> implements QueueADT <E>
 {
@@ -29,26 +29,24 @@ public class Queue <E> implements QueueADT <E>
     {
         return list.remove(0);
     }
+    
+    //hw wk5
+    public boolean isEmpty()
+    {
+        return list.isEmpty();
+    }
 
-    @Override
-    public boolean isEmpty() {
-        return false;
+    public String toString() {
+        return list.toString();
+    }
+
+    public void clear()
+    {
+        list.clear();
     }
 
     @Override
     public int size() {
-        return list.size();
-    }
-
-
-    public String toString(){
-
-        return list.toString();
-
-    }
-
-    @Override
-    public void clear() {
-        list.clear();
+        return 0;
     }
 }

@@ -5,9 +5,7 @@ import java.util.Random;
 
 /**
  * Test the binary search algorithm.
- * 
- * @author (sdb) 
- * @version (2020)
+ *
  */
 public class HomeworkTestSearch
 {

@@ -3,9 +3,7 @@ import stack.*;
 
 /**
  * Test the Stack implementations.
- * 
- * @author (sdb) 
- * @version (2020)
+ *
  */
 public class HomeworkStackDriver
 {

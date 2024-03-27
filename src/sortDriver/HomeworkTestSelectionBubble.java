@@ -6,8 +6,7 @@ import java.util.Random;
 /**
  * Test the Selection Sort and Bubble Sort algorithms.
  *  
- * @author (sdb) 
- * @version (2020)
+ *
  */
 public class HomeworkTestSelectionBubble
 {
